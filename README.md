@@ -13,4 +13,4 @@ Nlocation  :
 
 -Support inclus (72h) sur se discord : https://discord.gg/RNbeSqXNM8
 
-Vidéo de presentation: https://youtu.be/-SnXAj8bTWk
+Vidéo de presentation: https://youtu.fr/Xv83S7oMIg0
