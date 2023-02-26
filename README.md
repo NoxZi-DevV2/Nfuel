@@ -1,5 +1,5 @@
 
-Nlocation  :
+Nfuel :
 
 -ESX 
 
@@ -13,4 +13,4 @@ Nlocation  :
 
 -Support inclus (72h) sur se discord : https://discord.gg/RNbeSqXNM8
 
-Vidéo de presentation: https://youtube.be/Xv83S7oMIg0
+Vidéo de presentation: https://youtu.fr/Xv83S7oMIg0
