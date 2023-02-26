@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="nui://game/ui/jquery.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.1.1/css/all.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Nfuel</title>
+  </head>
+
+  <body>
+    <div class="menu">
+      <div class="container" style="display: none;">
+
+        <div class="title"><h1>Station Essence</h1>
+        </div>
+
+        <div class="litre-actuel" id="litre-actuel">
+          <i class="fa-regular fa-oil-can-drip"></i>
+          Litre actuel : 36L
+        </div>
+
+        <div class="prix-litre" id="prix">
+          <i class="fa-regular fa-circle-dollar"></i>
+          Prix au litre : 2.50$
+        </div>
+
+        <div class="vehicule" id="vehicule">
+        <i class="fa-solid fa-car"></i>
+          Vehicule   : Sultan 
+        </div>
+
+        <div class="capaciter" id="capaciter">
+          <i class="fa-regular fa-battery-full"></i>
+          Capaciter : 103L
+        </div>
+
+        <div class="plein-50" onclick="plein50()">
+          <i class="fa-solid fa-battery-half"></i>
+          Plein a 50%
+        </div>
+
+        <div class="plein-100" onclick="plein100()">
+          <i class="fa-solid fa-battery-full"></i>
+          Plein a 100%
+        </div>
+
+        <div class="start">
+          <input type="number" placeholder="Nombres de Litres" class="imput" id="nombre">
+            <button class="btn-plein" id="btn-plein2">Faire le plein</button>
+        </div>
+
+        <div class="fermer" onclick="closemenu()">
+          <span><i class="fa-solid fa-xmark"></i></span>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="app.js" type="text/javascript"></script>
+  
+</html>

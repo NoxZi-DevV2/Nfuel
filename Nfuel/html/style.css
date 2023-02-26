@@ -1,0 +1,216 @@
+::-moz-selection {background:transparent;}
+::selection{background:transparent;}  
+  * {
+    font-family: 'Roboto';
+  }
+  
+  .back {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .menu {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 55%;
+  }
+  
+  .container {
+    position: relative;
+    width: 1000px;
+    height: 750px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 1);
+    border-radius: 10px;
+    background-image: url(f21.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid #545454;
+
+  }
+
+.title h1 {
+    text-align: center;
+    font-size: 42px;
+    font-weight: 500;
+    color: #000000;
+}
+  
+  
+.fermer {
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0);
+  position: absolute;
+  top: 3%;
+  right: -3%;
+  border-radius: 10px;
+  height: 50px;
+  width: 160px;
+  background-color: transparent;
+  text-align: center;
+  font-size: 50px;
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+ 
+.fermer:hover {
+  transform: rotate(360deg);
+}
+
+.fermer i {
+  line-height: 50px;
+  margin-right: 5px;
+  size: 15px;
+  color: rgb(153, 72, 72);
+}
+  
+.fermer i:hover{
+  color: rgb(255, 71, 71);
+}
+  
+.litre-actuel {
+  box-shadow: 0 0 8px rgba(0, 0, 0, 1);
+  position: absolute;
+  top: 20%;
+  left: 10%;
+  font-size: 23px;
+  font-weight: 500;
+  color: white;
+  background-color: #545454;
+  border-radius: 7px;
+  padding: 18px;
+  text-align: center;
+  width: 23%;
+  
+}
+
+.prix-litre {
+  box-shadow: 0 0 8px rgba(0, 0, 0, 1);
+  position: absolute;
+  top: 32%;
+  left: 10%;
+  font-size: 23px;
+  font-weight: 500;
+  color: white;
+  background-color: #545454;
+  border-radius: 7px;
+  padding: 18px;
+  text-align: center;
+  width: 23%;
+}
+
+.imput {
+  box-shadow: 0 0 8px rgba(0, 0, 0, 1);
+  position: absolute;
+  bottom: 14%;
+  left: 38%;
+  font-size: 23px;
+  font-weight: 500;
+  color: white;
+  background-color: #545454;
+  border-radius: 7px;
+  padding: 18px;
+  text-align: center;
+  border: 1px solid transparent;
+  border: none;
+  align-items: center;
+}
+
+.btn-plein {
+  box-shadow: 0 0 8px rgba(0, 0, 0, 1);
+  position: absolute;
+  bottom: 3%;
+  left: 45%;
+  font-size: 23px;
+  font-weight: 500;
+  color: white;
+  background-color: #545454;
+  border-radius: 7px;
+  padding: 18px;
+  text-align: center;
+  border: none;
+  transition: all 0.3s;
+}
+
+.btn-plein:hover {
+  transform: translateY(-10px);
+}  
+
+.vehicule {
+  box-shadow: 0 0 8px rgba(0, 0, 0, 1);
+  position: absolute;
+  left: 10%;
+  top: 56%;
+  font-size: 23px;
+  font-weight: 500;
+  color: white;
+  background-color: #545454;
+  border-radius: 7px;
+  padding: 18px;
+  text-align: center;
+  border: none;
+  width: 23%;
+}
+
+.capaciter {
+  box-shadow: 0 0 8px rgba(0, 0, 0, 1);
+  position: absolute;
+  left: 10%;
+  top: 44%;
+  font-size: 23px;
+  font-weight: 500;
+  color: white;
+  background-color: #545454;
+  border-radius: 7px;
+  padding: 18px;
+  text-align: center;
+  border: none;
+  width: 23%;
+}
+
+.plein-50 {
+  box-shadow: 0 0 8px rgba(0, 0, 0, 1);
+  position: absolute;
+  right: 10%;
+  top: 30%;
+  font-size: 23px;
+  font-weight: 500;
+  color: white;
+  background-color: #545454;
+  border-radius: 7px;
+  padding: 18px;
+  text-align: center;
+  border: none; 
+  width: 23%;
+  transition: all 0.3s;
+}
+
+.plein-50:hover {
+  transform: translateY(-10px);
+}
+
+.plein-100 {
+  box-shadow: 0 0 8px rgba(0, 0, 0, 1);
+  position: absolute;
+  right: 10%;
+  top: 50%;
+  font-size: 23px;
+  font-weight: 500;
+  color: white;
+  background-color: #545454;
+  border-radius: 7px;
+  padding: 18px;
+  text-align: center;
+  border: none; 
+  width: 23%;
+  transition: all 0.3s;
+}
+
+.plein-100:hover {
+  transform: translateY(-10px);
+}
