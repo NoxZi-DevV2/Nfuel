@@ -109,7 +109,7 @@ RegisterNuiCallback('Plein100', function(data, cb)
     demi = false
 end)
 
-RegisterNUICallback('plein', function(data)               -----------donner liquides
+RegisterNUICallback('plein', function(data)               
     CloseNfuel()
     local fuel = Round(GetVehicleFuelLevel(GetPlayersLastVehicle()), 1)
     local player = PlayerPedId()
